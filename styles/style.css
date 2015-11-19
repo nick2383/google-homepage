@@ -6,18 +6,17 @@ body{
 	font-family: Arial;
 }
 
-#center_piece{
-	text-align: center;
-}
-
-#logo{
-	width: 272px;
-	height: 92px;
-	padding-top: 120px;
-}
-
 p{
 	font-size: 13px;
+}
+
+#header{
+	font-size: 13px;
+	color: black;
+	height: 20px;
+	width: 500px;
+	position: fixed;
+	margin-left: 1105px;
 }
 
 ul {
@@ -27,9 +26,40 @@ ul {
 }
 
 li {
-    display: inline;
+    display: table-cell;
+    padding: 8px;
+    vertical-align: middle;
 }
 
+#name{
+	color: #808080;
+}
+
+#apps{
+	opacity: 0.6;
+}
+
+#notifications{
+	padding-right: 0px;
+}
+
+#notifications:hover{
+	opacity: 0.7;
+}
+
+#initial{
+	padding-left: 0px;
+}
+
+#center_piece{
+	text-align: center;
+}
+
+#logo{
+	width: 272px;
+	height: 92px;
+	padding-top: 180px;
+}
 
 #search_box{
 	display: block;
@@ -37,6 +67,10 @@ li {
 	width: 572px;
 	margin: 16px auto 8px auto;
 	border: 1px solid #D8D8D8;
+}
+
+input[type=text]:hover{
+	outline:solid 1px #D0D0D0;
 }
 
 .search_button{
@@ -51,15 +85,9 @@ li {
 	padding:0 16px;
 }
 
-
-
 button:hover{
 	outline:solid 1px #D0D0D0;
 	color: #484848
-}
-
-input[type=text]:hover{
-	outline:solid 1px #D0D0D0;
 }
 
 a:hover{
@@ -70,20 +98,36 @@ a:hover{
 	color:inherit;
 }
 
-
-/*
 #center_piece a{
 	color: blue;
 }
-*/
 
-#center_piece a:visited{
-	color:inherit;
+#footer{
+	margin-top: 300px;
+	font-size: 13px;
+
+	color: black;
+	position: fixed;
+	vertical-align: bottom;
 }
 
+hr{
+	opacity: 0.3;
+}
 
-#header{
-	text-align: right;
-	font-size: 13px;
-	color: black;
+#gap{
+	width: 725px;
+}
+
+#footer li{
+    display: table-cell;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    vertical-align: middle;
+}
+
+#footer a{
+	color: #808080;
 }
