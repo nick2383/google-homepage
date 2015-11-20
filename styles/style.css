@@ -1,5 +1,10 @@
+/* ----- element styling -----*/
 a{
 	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
 }
 
 body{
@@ -8,15 +13,6 @@ body{
 
 p{
 	font-size: 13px;
-}
-
-#header{
-	font-size: 13px;
-	color: black;
-	height: 20px;
-	width: 500px;
-	position: fixed;
-	margin-left: 1105px;
 }
 
 ul {
@@ -29,6 +25,16 @@ li {
     display: table-cell;
     padding: 8px;
     vertical-align: middle;
+}
+
+/*----- header specific styling -----*/
+#header{
+	font-size: 13px;
+	color: black;
+	height: 20px;
+	width: 500px;
+	position: fixed;
+	margin-left: 1105px;
 }
 
 #name{
@@ -51,6 +57,11 @@ li {
 	padding-left: 0px;
 }
 
+#header a:visited{
+	color:inherit;
+}
+
+/*----- search bar and buttons styling -----*/
 #center_piece{
 	text-align: center;
 }
@@ -90,18 +101,11 @@ button:hover{
 	color: #484848
 }
 
-a:hover{
-	text-decoration: underline;
-}
-
-#header a:visited{
-	color:inherit;
-}
-
 #center_piece a{
 	color: blue;
 }
 
+/*----- footer specific styling -----*/
 #footer{
 	margin-top: 300px;
 	font-size: 13px;
